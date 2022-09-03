@@ -1,10 +1,6 @@
 package sggomaths
 
-import "fmt"
-
-// Hello returns a greeting for the named person.
-func Suma(name string) string {
-	// Return a greeting that embeds the name in a message.
-	message := fmt.Sprintf("Hi, %v. Welcome!", name)
-	return message
+// Suma retorna la suma de dos números enteros
+func Suma(num1, num2 int) int {
+	return num1 + num2
 }
